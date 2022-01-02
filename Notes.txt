@@ -1,0 +1,10 @@
+Note
+step 1 :create maven project
+Step 2: edit pom.xml and write the plugins configuration for jar
+Step 3: run the project with maven Gole : package
+Step 4: open cmd in project location and type : java -jar /target/Hello_Docker.jar and check file is running
+step 5: create a "dockerfile" without extension and give steps
+Step 6: open cmd and type cmd to build the image in docker : docker build -t demo-app:v1 .
+Step 7: run the image by: docker rum <image id>
+	-to delete image: docker rmi -f <image id>
+	-to view images: docker images
